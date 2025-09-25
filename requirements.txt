@@ -1,0 +1,6 @@
+streamlit
+deepface
+tensorflow-cpu
+opencv-python
+pandas
+numpy
