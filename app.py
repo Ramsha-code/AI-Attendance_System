@@ -6,6 +6,14 @@ from PIL import Image
 import datetime
 import pandas as pd
 import tempfile
+import os
+os.makedirs(".streamlit", exist_ok=True)
+with open(".streamlit/config.toml", "w") as f:
+    f.write("[server]\n")
+    f.write("enableCORS = false\n")
+    f.write("enableXsrfProtection = false\n")
+    f.write("port = 7860\n")
+    f.write("headless = true\n")
 
 # -------------------------------
 # Ensure CSV exists
