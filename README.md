@@ -3,7 +3,7 @@
 ## Features
 - Automatic face recognition using DeepFace
 - Manual name input if face recognition fails
-- Attendance timestamp in **24-hour format (AM/PM)**
+- Attendance timestamp 
 - Saves captured face images in `recognized_faces/` folder
 - Testing mode: attendance can be marked anytime
 
