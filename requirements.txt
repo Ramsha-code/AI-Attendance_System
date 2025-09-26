@@ -1,6 +1,5 @@
 streamlit
 deepface
-tensorflow-cpu
-opencv-python
+opencv-python-headless
 pandas
-numpy
+pillow
