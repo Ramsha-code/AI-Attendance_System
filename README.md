@@ -4,7 +4,7 @@
 - Automatic face recognition using DeepFace
 - Manual name input if face recognition fails
 - Attendance timestamp 
-- Saves captured face images in `recognized_faces/` folder
+- Saves captured face images in `Known_faces/` folder
 - Testing mode: attendance can be marked anytime
 
 ## Folder Structure
